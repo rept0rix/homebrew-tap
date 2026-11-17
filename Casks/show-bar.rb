@@ -7,7 +7,7 @@ cask "show-bar" do
   desc "Windows-style Command-Tab window switcher, Dock previews, snapping, and clipboard shelf"
   homepage "https://rept0rix.github.io/show-bar/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Show Bar.app"
 
